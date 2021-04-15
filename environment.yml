@@ -1,0 +1,10 @@
+name: audiopipe
+channels:
+  - defaults
+dependencies:
+  - portaudio=19.6.0=he774522_4
+  - pyaudio=0.2.11=py38he774522_2
+  - python=3.8.8=hdbf39b2_4
+  - pip:
+    - fire==0.4.0
+    - tqdm==4.60.0
